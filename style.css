@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h3{
+    font-weight: bold;
+}
+.forecast{
+    
+    font-size: 0.9em;
+}
+span{
+    font-size: 1em;
+}
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
+}
+.footer {
+    height: 35px;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    color: rgb(232, 237, 240);
+    background-color: rgb(10, 29, 27);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
